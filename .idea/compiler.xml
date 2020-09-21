@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="comsumer" />
+        <module name="eureka-client" />
+        <module name="eureka-service" />
+        <module name="feign" />
+        <module name="hystrix" />
+        <module name="native-config-client" />
+        <module name="native-config-service" />
+        <module name="rest-template" />
+        <module name="ribbon" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

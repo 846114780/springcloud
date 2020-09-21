@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: configclient
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/edu?characterEncoding=utf-8&useSSL=false
+    password: 123456
+    username: root
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  cloud:
+    config:
+      uri: http://localhost:8762
+      fail-fast: true
